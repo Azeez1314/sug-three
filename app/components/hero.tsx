@@ -32,6 +32,9 @@ const newsItems = [
 ]
 
 type EventItem = {
+  date: string
+  title: string
+  location: string
 }
 
 const events: EventItem[] = [
