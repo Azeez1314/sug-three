@@ -122,9 +122,9 @@ export function Hero() {
     </section>
 
     <section className="w-full bg-white py-20">
-<div className="mx-auto max-w-7xl px-4">
+      <div className="mx-auto max-w-7xl px-4">
   {/* Heading */}
-  <h2 className="mb-12 text-center text-4xl font-bold tracking-tight">
+  <h2 className="mb-12 text-center text-4xl font-bold tracking-tight text-black">
     Latest News
   </h2>
 
@@ -177,7 +177,7 @@ export function Hero() {
       Read More
     </Button>
   </div>
-</div>
+      </div>
     </section>
 
     <section className="bg-blue-900 py-16">
@@ -192,7 +192,7 @@ export function Hero() {
     <section className="w-full bg-white py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         {/* Header */}
-        <h2 className="text-center text-3xl font-semibold tracking-tight md:text-4xl">
+        <h2 className="text-center text-3xl font-semibold tracking-tight md:text-4xl text-black">
           Upcoming Events
         </h2>
 
@@ -200,14 +200,14 @@ export function Hero() {
           {events.map((event, index) => (
             <div
               key={index}
-              className="flex flex-col gap-6 py-8 md:flex-row md:items-center md:justify-between"
+              className="flex flex-col gap-6 py-8 md:flex-row md:items-center md:justify-between text-black"
             >
               {/* Event info */}
               <div>
                 <p className="text-sm text-muted-foreground">
                   {event.date}
                 </p>
-                <p className="mt-1 text-base font-medium">
+                <p className="mt-1 text-base font-medium text-black">
                   {event.title}{" "}
                   <span className="text-muted-foreground">
                     / {event.location}
