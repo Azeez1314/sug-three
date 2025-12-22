@@ -192,11 +192,11 @@ export function Hero() {
     <section className="w-full bg-white py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         {/* Header */}
-        <h2 className="text-center text-3xl font-semibold tracking-tight md:text-4xl">
+        <h2 className="text-center text-3xl font-semibold tracking-tight md:text-4xl text-black">
           Upcoming Events
         </h2>
 
-        <div className="mt-12 divide-y-4 border-t-4 border-b-4">
+        <div className="mt-12 divide-y-2 divide-black border-t-2 border-b-2 border-black">
           {events.map((event, index) => (
             <div
               key={index}
@@ -207,7 +207,7 @@ export function Hero() {
                 <p className="text-sm text-muted-foreground">
                   {event.date}
                 </p>
-                <p className="mt-1 text-base font-medium">
+                <p className="mt-1 text-base font-medium text-black">
                   {event.title}{" "}
                   <span className="text-muted-foreground">
                     / {event.location}
