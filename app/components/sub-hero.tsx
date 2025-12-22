@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Button } from "@/app/components/ui/button"
+import Link from "next/link"
 
 export default function SubHero() {
   return (
@@ -35,6 +36,43 @@ export default function SubHero() {
           />
         </div>
       </div>
+      <div className="bg-white mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8 w-full text-black">
+    {/* Brand */}
+    <div>
+      <h3 className="font-semibold text-lg">Sheffield Usrah</h3>
+      <p className="mt-3 text-sm">
+        Educating and empowering the Ummah through faith, community, and action.
+      </p>
+    </div>
+
+    {/* Links */}
+    <div>
+      <h4 className="font-medium">Explore</h4>
+      <ul className="mt-3 space-y-2 text-sm">
+        <li><Link href="/about">About</Link></li>
+        <li><Link href="/events">Events</Link></li>
+        <li><Link href="/news">News</Link></li>
+        <li><Link href="/podcast">Podcast</Link></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 className="font-medium">Support</h4>
+      <ul className="mt-3 space-y-2 text-sm">
+        <li><Link href="/donate">Donate</Link></li>
+        <li><Link href="/volunteer">Volunteer</Link></li>
+        <li><Link href="/contact">Contact</Link></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 className="font-medium">Legal</h4>
+      <ul className="mt-3 space-y-2 text-sm">
+        <li><Link href="/privacy">Privacy Policy</Link></li>
+        <li><Link href="/terms">Terms of Service</Link></li>
+      </ul>
+    </div>
+   </div>
     </section>
   )
 }
