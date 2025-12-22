@@ -5,7 +5,7 @@ import Link from "next/link"
 export function SiteFooter() {
   return (
   <>
-   <div className="bg-white mx-auto max-w-7xl px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8 w-full text-black">
+   <div className="bg-white mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8 w-full text-black">
     {/* Brand */}
     <div>
       <h3 className="font-semibold text-lg">Sheffield Usrah</h3>
