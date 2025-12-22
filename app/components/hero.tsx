@@ -196,7 +196,7 @@ export function Hero() {
           Upcoming Events
         </h2>
 
-        <div className="mt-12 divide-y-0 divide-black border-t-0 border-b-0 border-black">
+        <div className="mt-12 divide-y divide-black border-t border-b border-black">
           {events.map((event, index) => (
             <div
               key={index}
