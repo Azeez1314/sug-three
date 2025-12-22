@@ -122,7 +122,7 @@ export function Hero() {
     </section>
 
     <section className="w-full bg-white py-20">
-      <div className="mx-auto max-w-7xl px-4">
+      <div className="mx-auto max-w-7xl px-4 bg-white">
   {/* Heading */}
   <h2 className="mb-12 text-center text-4xl font-bold tracking-tight text-black">
     Latest News
@@ -196,7 +196,7 @@ export function Hero() {
           Upcoming Events
         </h2>
 
-        <div className="mt-12 divide-y border-t">
+        <div className="mt-12 divide-y border-t text-b">
           {events.map((event, index) => (
             <div
               key={index}
