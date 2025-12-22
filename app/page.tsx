@@ -1,6 +1,5 @@
 import { SiteNavbar } from "@/app/components/site-navbar"
 import { Hero } from "@/app/components/hero"
-import { SiteFooter } from "@/app/components/site-footer"
 import LatestNews from "./components/latest-news"
 import QuoteStrip from "./components/quote-strip"
 import { UpcomingEvents } from "./components/upcomingevents"
@@ -19,7 +18,6 @@ export default function HomePage() {
           <SubHero />
         </div>
       </main>
-      <SiteFooter />
     </>
   )
 }
