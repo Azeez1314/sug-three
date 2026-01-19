@@ -5,7 +5,6 @@ import SubHero from "./components/sub-hero"
 export default function HomePage() {
   return (
     <>
-      <SiteNavbar />
       <main>
         <Hero />
         <div className="flex flex-col">

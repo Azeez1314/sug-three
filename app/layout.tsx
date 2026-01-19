@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { SocialSidebar } from "./components/socialsidebar";
 import { SiteFooter } from "@/app/components/site-footer"
+import { SiteNavbar } from "./components/site-navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <SiteNavbar />
         <ThemeProvider attribute="class" defaultTheme="dark">
           {children}
           <SocialSidebar />
