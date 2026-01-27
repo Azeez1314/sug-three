@@ -19,9 +19,9 @@ export default function ContactForm() {
           </p>
 
           <div className="space-y-4 text-sm">
-            <p><strong>Email:</strong> info@womenpwr.org</p>
+            <p><strong>Email:</strong> sheffieldusrahgroup@gmail.com</p>
             <p><strong>Phone:</strong> +44 123 456 7890</p>
-            <p><strong>Location:</strong> United Kingdom</p>
+            <p><strong>Location:</strong> Sheffield, United Kingdom</p>
           </div>
         </div>
 
